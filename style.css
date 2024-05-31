@@ -82,8 +82,8 @@ header {
   }
   .nav-right {
     position: absolute;
-    top: 30px;
-    right: 0;
+    top: 0px;
+    right: 0px;
     transition: all 0.3s ease-in-out;
     background-color: #fff;
     width: 100vw;
@@ -124,6 +124,7 @@ header {
   margin: 80px auto;
   margin-top: 150px;
   min-height: 70vh;
+  margin-bottom: 0px;
 }
 .section-1 video {
   position: absolute;
@@ -194,9 +195,13 @@ h1 {
   padding: 50px 0;
 }
 .section-2-heading {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem;
   padding: 60px 0;
-  padding-bottom: 80px;
+  padding-bottom: 80px; */
+
+  font-size: 1.5rem;
+  padding: 25px 0;
+  padding-bottom: 27px;
 }
 .small-headings {
   background-color: var(--sky-blue);
@@ -249,7 +254,7 @@ h1 {
 /* Section-3 */
 .section-3 {
   padding: 50px 0;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .section-3-heading * {
   text-align: center;
@@ -301,7 +306,7 @@ table img {
 
 /* Section-4 */
 .section-4 {
-  margin: 100px auto;
+  margin: 50px auto;
   width: 90%;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -375,7 +380,7 @@ table img {
 
 /* section-7 */
 .section-7 {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .section-7 :first-child {
   display: flex;
@@ -488,6 +493,9 @@ footer {
   .section-4-links p {
     font-size: 0.9rem;
   }
+  .section-4-links > p {
+    margin: 10px 0;
+  }
 }
 @media (max-width: 900px) {
   table {
@@ -497,7 +505,7 @@ footer {
     display: block;
   }
   .section-1 {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
   }
 
   .last-name {
@@ -549,6 +557,7 @@ footer {
   .lower-section-1 {
     margin-top: 37px;
   }
+
   .card-list {
     flex-wrap: wrap;
     gap: 20px;
@@ -700,7 +709,7 @@ footer {
   }
   .section-2 {
     flex-direction: column;
-    gap: 59px;
+    gap: 40px;
   }
 
   .section-1 video {
