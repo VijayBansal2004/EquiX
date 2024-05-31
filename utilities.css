@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* WebKit Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #555;
+}
+
+* {
+  scrollbar-color: #333 #555;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #555;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text-large {
+  font-size: 2.5rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  transition: all 0.2s ease;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
+
+h1 {
+  font-weight: 900;
+}
+h2 {
+  font-weight: 700;
+}
+h3 {
+  font-weight: 600;
+}
+h4 {
+  font-weight: 600;
+}
+h5 {
+  font-weight: 600;
+}
+main {
+  /* width: 95%; */
+  margin: auto;
+}
+
+.hover-links {
+  transition: all 0.3s ease;
+}
+
+p,
+li {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.display-none {
+  display: none;
+}
+.display-flex {
+  display: flex;
+}
+
+.btn-primary {
+  background-color: var(--yellow);
+  border: none;
+  font-weight: bold;
+  padding: 10px 21px;
+  border-radius: 4px;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: var(--yellow);
+  opacity: 0.8;
+  border: none;
+}
+
+.btn.disabled {
+  background-color: #6629a6 !important;
+}
+.btn-secondary {
+  background-color: var(--sky-blue);
+  border: none;
+  font-weight: bold;
+  padding: 10px 21px;
+  border-radius: 4px;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background-color: var(--sky-blue);
+  opacity: 0.8;
+  border: none;
+}
+.tutorialList > div {
+  margin: 45px 0;
+}
+
+.mainCardList {
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+#mainCard {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+  height: fit-content;
+  margin: 0;
+
+  background-color: var(--lightBlue-color);
+  border-radius: 6px;
+  box-shadow: 4px 5px 10px black;
+}
+img,
+svg {
+  cursor: pointer;
+}
+
+#mainCard img {
+  margin-top: 0;
+  width: 50%;
+}
+#mainCard h4 {
+  margin-bottom: 20px;
+}
