@@ -82,8 +82,8 @@ header {
   }
   .nav-right {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 30px;
+    right: 0;
     transition: all 0.3s ease-in-out;
     background-color: #fff;
     width: 100vw;
@@ -106,10 +106,7 @@ header {
 }
 @media (max-width: 600px) {
   .navbar {
-    justify-content: space-between;
-    /* width: 50vw;
-    margin: auto; */
-    padding: 0 20px;
+    justify-content: space-around;
   }
 }
 
@@ -121,13 +118,10 @@ header {
 .section-1 {
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   text-align: center;
-
   margin: 80px auto;
   margin-top: 150px;
-  min-height: 70vh;
-  margin-bottom: 0px;
 }
 .section-1 video {
   position: absolute;
@@ -198,13 +192,9 @@ h1 {
   padding: 50px 0;
 }
 .section-2-heading {
-  /* font-size: 1.5rem;
-  padding: 60px 0;
-  padding-bottom: 80px; */
-
   font-size: 1.5rem;
-  padding: 25px 0;
-  padding-bottom: 27px;
+  padding: 60px 0;
+  padding-bottom: 80px;
 }
 .small-headings {
   background-color: var(--sky-blue);
@@ -257,7 +247,7 @@ h1 {
 /* Section-3 */
 .section-3 {
   padding: 50px 0;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 .section-3-heading * {
   text-align: center;
@@ -309,7 +299,7 @@ table img {
 
 /* Section-4 */
 .section-4 {
-  margin: 50px auto;
+  margin: 100px auto;
   width: 90%;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -383,7 +373,7 @@ table img {
 
 /* section-7 */
 .section-7 {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .section-7 :first-child {
   display: flex;
@@ -496,9 +486,6 @@ footer {
   .section-4-links p {
     font-size: 0.9rem;
   }
-  .section-4-links > p {
-    margin: 10px 0;
-  }
 }
 @media (max-width: 900px) {
   table {
@@ -508,7 +495,7 @@ footer {
     display: block;
   }
   .section-1 {
-    margin-bottom: 0px;
+    margin-bottom: 40px;
   }
 
   .last-name {
@@ -560,7 +547,6 @@ footer {
   .lower-section-1 {
     margin-top: 37px;
   }
-
   .card-list {
     flex-wrap: wrap;
     gap: 20px;
@@ -646,9 +632,6 @@ footer {
   }
 }
 @media (max-width: 425px) {
-  .navbar {
-    width: 100%;
-  }
   .section-1-heading h1 {
     font-size: 2rem;
   }
@@ -715,7 +698,7 @@ footer {
   }
   .section-2 {
     flex-direction: column;
-    gap: 40px;
+    gap: 59px;
   }
 
   .section-1 video {

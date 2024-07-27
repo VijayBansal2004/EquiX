@@ -47,7 +47,10 @@ body {
   margin: auto;
   transition: all 0.2s ease;
 }
-
+.max-width {
+  max-width: 1320px;
+  margin: auto;
+}
 .container {
   width: 95%;
   margin: auto;
